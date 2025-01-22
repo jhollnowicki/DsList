@@ -4,13 +4,12 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.devsuperior.dslist1.dto.GameDTO;
 import com.devsuperior.dslist1.dto.GameMinDTO;
 import com.devsuperior.dslist1.entities.Game;
 import com.devsuperior.dslist1.repositories.GameRepository;
-
-import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public class GameService {
